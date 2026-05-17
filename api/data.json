@@ -11,8 +11,8 @@
     },
     {
       "label": "Active records",
-      "value": "7",
-      "delta": "+3"
+      "value": "100",
+      "delta": "100 seeded"
     },
     {
       "label": "Workflow steps",
@@ -28,30 +28,1003 @@
   "records": [
     {
       "id": "returnready-1",
-      "title": "Exchange recommended",
+      "title": "Exchange recommended #001",
       "status": "Eligibility clarity",
       "owner": "Returns portal",
-      "score": 92,
+      "score": 42,
       "trend": "High attention",
-      "updated": "8 min ago"
+      "updated": "8 min ago",
+      "demoSeed": true
     },
     {
       "id": "returnready-2",
-      "title": "Photo evidence missing",
+      "title": "Photo evidence missing #002",
       "status": "Exchange-first UX",
       "owner": "Warehouse view",
-      "score": 80,
+      "score": 49,
       "trend": "In progress",
-      "updated": "19 min ago"
+      "updated": "13 min ago",
+      "demoSeed": true
     },
     {
       "id": "returnready-3",
-      "title": "Warehouse label ready",
+      "title": "Warehouse label ready #003",
       "status": "Photo evidence",
       "owner": "Resolution flow",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "18 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-4",
+      "title": "Exchange recommended #004",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "23 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-5",
+      "title": "Photo evidence missing #005",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "28 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-6",
+      "title": "Warehouse label ready #006",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "33 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-7",
+      "title": "Exchange recommended #007",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "38 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-8",
+      "title": "Photo evidence missing #008",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "43 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-9",
+      "title": "Warehouse label ready #009",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "48 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-10",
+      "title": "Exchange recommended #010",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "53 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-11",
+      "title": "Photo evidence missing #011",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "58 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-12",
+      "title": "Warehouse label ready #012",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "63 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-13",
+      "title": "Exchange recommended #013",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "68 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-14",
+      "title": "Photo evidence missing #014",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "73 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-15",
+      "title": "Warehouse label ready #015",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "78 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-16",
+      "title": "Exchange recommended #016",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "83 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-17",
+      "title": "Photo evidence missing #017",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "88 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-18",
+      "title": "Warehouse label ready #018",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "93 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-19",
+      "title": "Exchange recommended #019",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "98 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-20",
+      "title": "Photo evidence missing #020",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "103 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-21",
+      "title": "Warehouse label ready #021",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
       "score": 68,
       "trend": "Ready",
-      "updated": "30 min ago"
+      "updated": "108 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-22",
+      "title": "Exchange recommended #022",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "113 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-23",
+      "title": "Photo evidence missing #023",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "118 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-24",
+      "title": "Warehouse label ready #024",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "123 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-25",
+      "title": "Exchange recommended #025",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "128 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-26",
+      "title": "Photo evidence missing #026",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "133 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-27",
+      "title": "Warehouse label ready #027",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "138 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-28",
+      "title": "Exchange recommended #028",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "143 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-29",
+      "title": "Photo evidence missing #029",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "148 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-30",
+      "title": "Warehouse label ready #030",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "153 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-31",
+      "title": "Exchange recommended #031",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "158 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-32",
+      "title": "Photo evidence missing #032",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "163 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-33",
+      "title": "Warehouse label ready #033",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "168 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-34",
+      "title": "Exchange recommended #034",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "173 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-35",
+      "title": "Photo evidence missing #035",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "178 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-36",
+      "title": "Warehouse label ready #036",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "183 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-37",
+      "title": "Exchange recommended #037",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "188 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-38",
+      "title": "Photo evidence missing #038",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "193 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-39",
+      "title": "Warehouse label ready #039",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "198 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-40",
+      "title": "Exchange recommended #040",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "203 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-41",
+      "title": "Photo evidence missing #041",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "208 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-42",
+      "title": "Warehouse label ready #042",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "213 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-43",
+      "title": "Exchange recommended #043",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "218 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-44",
+      "title": "Photo evidence missing #044",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 58,
+      "trend": "In progress",
+      "updated": "223 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-45",
+      "title": "Warehouse label ready #045",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 65,
+      "trend": "Ready",
+      "updated": "228 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-46",
+      "title": "Exchange recommended #046",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 72,
+      "trend": "High attention",
+      "updated": "233 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-47",
+      "title": "Photo evidence missing #047",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 79,
+      "trend": "In progress",
+      "updated": "238 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-48",
+      "title": "Warehouse label ready #048",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 86,
+      "trend": "Ready",
+      "updated": "243 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-49",
+      "title": "Exchange recommended #049",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 93,
+      "trend": "High attention",
+      "updated": "248 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-50",
+      "title": "Photo evidence missing #050",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 43,
+      "trend": "In progress",
+      "updated": "253 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-51",
+      "title": "Warehouse label ready #051",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 50,
+      "trend": "Ready",
+      "updated": "258 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-52",
+      "title": "Exchange recommended #052",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 57,
+      "trend": "High attention",
+      "updated": "263 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-53",
+      "title": "Photo evidence missing #053",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 64,
+      "trend": "In progress",
+      "updated": "268 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-54",
+      "title": "Warehouse label ready #054",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 71,
+      "trend": "Ready",
+      "updated": "273 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-55",
+      "title": "Exchange recommended #055",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 78,
+      "trend": "High attention",
+      "updated": "278 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-56",
+      "title": "Photo evidence missing #056",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 85,
+      "trend": "In progress",
+      "updated": "283 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-57",
+      "title": "Warehouse label ready #057",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 92,
+      "trend": "Ready",
+      "updated": "288 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-58",
+      "title": "Exchange recommended #058",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 42,
+      "trend": "High attention",
+      "updated": "293 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-59",
+      "title": "Photo evidence missing #059",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 49,
+      "trend": "In progress",
+      "updated": "298 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-60",
+      "title": "Warehouse label ready #060",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 56,
+      "trend": "Ready",
+      "updated": "303 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-61",
+      "title": "Exchange recommended #061",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 63,
+      "trend": "High attention",
+      "updated": "308 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-62",
+      "title": "Photo evidence missing #062",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 70,
+      "trend": "In progress",
+      "updated": "313 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-63",
+      "title": "Warehouse label ready #063",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 77,
+      "trend": "Ready",
+      "updated": "318 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-64",
+      "title": "Exchange recommended #064",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 84,
+      "trend": "High attention",
+      "updated": "323 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-65",
+      "title": "Photo evidence missing #065",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 91,
+      "trend": "In progress",
+      "updated": "328 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-66",
+      "title": "Warehouse label ready #066",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 98,
+      "trend": "Ready",
+      "updated": "333 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-67",
+      "title": "Exchange recommended #067",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 48,
+      "trend": "High attention",
+      "updated": "338 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-68",
+      "title": "Photo evidence missing #068",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 55,
+      "trend": "In progress",
+      "updated": "343 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-69",
+      "title": "Warehouse label ready #069",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 62,
+      "trend": "Ready",
+      "updated": "348 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-70",
+      "title": "Exchange recommended #070",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 69,
+      "trend": "High attention",
+      "updated": "353 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-71",
+      "title": "Photo evidence missing #071",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 76,
+      "trend": "In progress",
+      "updated": "358 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-72",
+      "title": "Warehouse label ready #072",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 83,
+      "trend": "Ready",
+      "updated": "363 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-73",
+      "title": "Exchange recommended #073",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 90,
+      "trend": "High attention",
+      "updated": "368 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-74",
+      "title": "Photo evidence missing #074",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 97,
+      "trend": "In progress",
+      "updated": "373 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-75",
+      "title": "Warehouse label ready #075",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 47,
+      "trend": "Ready",
+      "updated": "378 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-76",
+      "title": "Exchange recommended #076",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 54,
+      "trend": "High attention",
+      "updated": "383 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-77",
+      "title": "Photo evidence missing #077",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 61,
+      "trend": "In progress",
+      "updated": "388 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-78",
+      "title": "Warehouse label ready #078",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "393 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-79",
+      "title": "Exchange recommended #079",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 75,
+      "trend": "High attention",
+      "updated": "398 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-80",
+      "title": "Photo evidence missing #080",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 82,
+      "trend": "In progress",
+      "updated": "403 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-81",
+      "title": "Warehouse label ready #081",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 89,
+      "trend": "Ready",
+      "updated": "408 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-82",
+      "title": "Exchange recommended #082",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 96,
+      "trend": "High attention",
+      "updated": "413 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-83",
+      "title": "Photo evidence missing #083",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 46,
+      "trend": "In progress",
+      "updated": "418 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-84",
+      "title": "Warehouse label ready #084",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 53,
+      "trend": "Ready",
+      "updated": "423 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-85",
+      "title": "Exchange recommended #085",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 60,
+      "trend": "High attention",
+      "updated": "428 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-86",
+      "title": "Photo evidence missing #086",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 67,
+      "trend": "In progress",
+      "updated": "433 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-87",
+      "title": "Warehouse label ready #087",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 74,
+      "trend": "Ready",
+      "updated": "438 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-88",
+      "title": "Exchange recommended #088",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 81,
+      "trend": "High attention",
+      "updated": "443 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-89",
+      "title": "Photo evidence missing #089",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 88,
+      "trend": "In progress",
+      "updated": "448 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-90",
+      "title": "Warehouse label ready #090",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 95,
+      "trend": "Ready",
+      "updated": "453 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-91",
+      "title": "Exchange recommended #091",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 45,
+      "trend": "High attention",
+      "updated": "458 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-92",
+      "title": "Photo evidence missing #092",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 52,
+      "trend": "In progress",
+      "updated": "463 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-93",
+      "title": "Warehouse label ready #093",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 59,
+      "trend": "Ready",
+      "updated": "468 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-94",
+      "title": "Exchange recommended #094",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 66,
+      "trend": "High attention",
+      "updated": "473 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-95",
+      "title": "Photo evidence missing #095",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 73,
+      "trend": "In progress",
+      "updated": "478 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-96",
+      "title": "Warehouse label ready #096",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 80,
+      "trend": "Ready",
+      "updated": "483 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-97",
+      "title": "Exchange recommended #097",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 87,
+      "trend": "High attention",
+      "updated": "488 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-98",
+      "title": "Photo evidence missing #098",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 94,
+      "trend": "In progress",
+      "updated": "493 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-99",
+      "title": "Warehouse label ready #099",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 44,
+      "trend": "Ready",
+      "updated": "498 min ago",
+      "demoSeed": true
+    },
+    {
+      "id": "returnready-100",
+      "title": "Exchange recommended #100",
+      "status": "Intake labels",
+      "owner": "Status tracker",
+      "score": 51,
+      "trend": "High attention",
+      "updated": "503 min ago",
+      "demoSeed": true
     }
   ],
   "workflow": [
