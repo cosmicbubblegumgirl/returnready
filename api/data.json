@@ -1,0 +1,96 @@
+{
+  "product": "ReturnReady",
+  "category": "Reverse Logistics Portal",
+  "backend": "GitHub Pages static JSON endpoint plus localStorage write simulation.",
+  "generatedBy": "Simone Govender",
+  "metrics": [
+    {
+      "label": "Return path",
+      "value": "86%",
+      "delta": "+12%"
+    },
+    {
+      "label": "Active records",
+      "value": "7",
+      "delta": "+3"
+    },
+    {
+      "label": "Workflow steps",
+      "value": "4",
+      "delta": "mapped"
+    },
+    {
+      "label": "Local saves",
+      "value": "on",
+      "delta": "browser"
+    }
+  ],
+  "records": [
+    {
+      "id": "returnready-1",
+      "title": "Exchange recommended",
+      "status": "Eligibility clarity",
+      "owner": "Returns portal",
+      "score": 92,
+      "trend": "High attention",
+      "updated": "8 min ago"
+    },
+    {
+      "id": "returnready-2",
+      "title": "Photo evidence missing",
+      "status": "Exchange-first UX",
+      "owner": "Warehouse view",
+      "score": 80,
+      "trend": "In progress",
+      "updated": "19 min ago"
+    },
+    {
+      "id": "returnready-3",
+      "title": "Warehouse label ready",
+      "status": "Photo evidence",
+      "owner": "Resolution flow",
+      "score": 68,
+      "trend": "Ready",
+      "updated": "30 min ago"
+    }
+  ],
+  "workflow": [
+    {
+      "step": 1,
+      "title": "Eligibility clarity",
+      "detail": "ReturnReady uses eligibility clarity to support returns portal decisions for ecommerce support and warehouse teams."
+    },
+    {
+      "step": 2,
+      "title": "Exchange-first UX",
+      "detail": "ReturnReady uses exchange-first ux to support warehouse view decisions for ecommerce support and warehouse teams."
+    },
+    {
+      "step": 3,
+      "title": "Photo evidence",
+      "detail": "ReturnReady uses photo evidence to support resolution flow decisions for ecommerce support and warehouse teams."
+    },
+    {
+      "step": 4,
+      "title": "Intake labels",
+      "detail": "ReturnReady uses intake labels to support status tracker decisions for ecommerce support and warehouse teams."
+    }
+  ],
+  "activity": [
+    {
+      "title": "Lower avoidable refunds",
+      "time": "1h",
+      "kind": "Eligibility clarity"
+    },
+    {
+      "title": "Give customers clear next steps",
+      "time": "2h",
+      "kind": "Exchange-first UX"
+    },
+    {
+      "title": "Prepare warehouse teams before parcels arrive",
+      "time": "3h",
+      "kind": "Photo evidence"
+    }
+  ]
+}
