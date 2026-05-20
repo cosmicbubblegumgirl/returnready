@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Database | ReturnReady</title>
+  <meta name="description" content="ReturnReady database console with 100 seeded return records." />
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
+  <link rel="stylesheet" href="assets/styles.css" />
+</head>
+<body data-page="database">
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" /><span><strong>ReturnReady</strong><small>Returns Control Tower</small></span></a>
+    <nav aria-label="ReturnReady navigation"><a href="index.html">Control Tower</a><a href="product.html">Shopper Portal</a><a href="workspace.html">Warehouse</a><a href="demo.html">Resolution Lab</a><a href="database.html">Database</a><a href="case-study.html">Case Study</a></nav>
+    <div class="header-actions"><span data-session-pill>Guest</span><a class="nav-button" href="login.html">Login</a><button class="nav-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <p class="eyebrow">returnready_requests</p>
+      <h1>Search, create, delete, and export the demo returns database.</h1>
+      <p>The published Pages site uses static JSON and browser storage. The local Node backend exposes API routes for login and records.</p>
+    </section>
+
+    <section class="section database-shell">
+      <div class="auth-warning" data-auth-required>
+        <strong>Demo login required for edits.</strong>
+        <span>Viewing is open. Sign in to create or delete records.</span>
+        <a class="button secondary" href="login.html">Login</a>
+      </div>
+      <div class="db-toolbar">
+        <input data-db-search placeholder="Search returns database" />
+        <select data-db-sort>
+          <option value="score">Sort by confidence</option>
+          <option value="title">Sort by title</option>
+          <option value="status">Sort by status</option>
+        </select>
+        <button class="button secondary" type="button" data-db-export>Export JSON</button>
+        <button class="button secondary" type="button" data-db-reset>Reset seed</button>
+      </div>
+      <div class="database-grid">
+        <form class="db-form" data-db-form>
+          <p class="eyebrow">Create return</p>
+          <label>Return title<input name="title" required placeholder="Size exchange request" /></label>
+          <label>Status<select name="status"><option>Eligibility clarity</option><option>Exchange-first UX</option><option>Photo evidence</option><option>Intake labels</option></select></label>
+          <label>Owner<input name="owner" value="Returns desk" /></label>
+          <label>Resolution confidence<input name="score" type="number" min="1" max="100" value="86" /></label>
+          <button class="button primary" type="submit">Save return</button>
+          <p data-db-form-status></p>
+        </form>
+        <article class="db-table-panel">
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>ID</th><th>Return</th><th>Status</th><th>Owner</th><th>Score</th><th></th></tr></thead>
+              <tbody data-db-rows></tbody>
+            </table>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>ReturnReady</strong><br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

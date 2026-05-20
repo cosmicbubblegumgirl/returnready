@@ -1,34 +1,61 @@
-<!doctype html><html lang="en"><head>
+<!doctype html>
+<html lang="en">
+<head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Demo | ReturnReady</title>
-  <meta name="description" content="ReturnReady interactive demo." />
+  <title>Resolution Lab | ReturnReady</title>
+  <meta name="description" content="ReturnReady resolution lab for exchange, refund, support, and warehouse route decisions." />
   <link rel="icon" href="assets/logo.svg" type="image/svg+xml" />
   <link rel="stylesheet" href="assets/styles.css" />
-  <style>:root{--brand:#b45309;--accent:#0f766e;--second:#be123c;--soft:#fff7ed;--dark:#261710}</style>
-</head><body><header class="topbar">
-  <a class="brand" href="index.html"><img src="assets/logo.svg" alt="ReturnReady logo" /><span><strong>ReturnReady</strong><small>Reverse Logistics Portal</small></span></a>
-  <nav aria-label="ReturnReady navigation">
-    <a href="index.html">Home</a>
-    <a href="product.html">Product</a>
-    <a href="workspace.html">Workspace</a>
-    <a href="case-study.html">Case Study</a>
-    <a href="demo.html">Demo</a>
-  </nav>
-  <button class="theme-toggle" type="button" data-theme-toggle>Dark</button>
-</header><main><section class="hero">
-  <div class="hero-copy">
-    <p class="eyebrow">Interactive demo</p>
-    <h1>Return Router</h1>
-    <p class="lead">Tune the inputs, watch the result change, then save a browser-side record to simulate a backend write flow.</p>
-    <div class="hero-actions"><a class="button primary" href="workspace.html">Open workspace</a><a class="button secondary" href="demo.html">Try demo</a></div>
-    <p class="notice">A Quantum Cupcake Creation (Simoné Govender) Front end, JSON data layer, and local browser persistence.</p>
-  </div>
-  <aside class="product-stage" aria-label="ReturnReady live preview">
-    <div class="stage-top"><span></span><span></span><span></span><strong data-live-status>Loading data</strong></div>
-    <div class="stage-body"><img src="assets/preview.svg" alt="ReturnReady interface preview" /><div class="live-panel" data-live-panel></div></div>
-  </aside>
-</section><section class="section demo-grid"><form class="panel demo-panel" data-demo-form><p class="eyebrow">Return Router</p><h2>Return path</h2><label>Item condition<input type="range" min="0" max="100" value="55" data-demo-input /></label><label>Resolution fit<input type="range" min="0" max="100" value="69" data-demo-input /></label><label>Evidence quality<input type="range" min="0" max="100" value="83" data-demo-input /></label><button class="button primary" type="submit">Save demo record</button><p data-form-status></p></form><article class="result-card"><span data-result-label>Return path</span><strong data-demo-result>0%</strong><p data-outcome>Review</p></article><article class="panel wide"><p class="eyebrow">Saved browser records</p><div class="record-list" data-saved-records></div></article></section><section class="section split">
-  <div class="section-heading"><p class="eyebrow">Back end layer</p><h2>Static API, dynamic rendering, saved interactions.</h2><p>GitHub Pages cannot run a server process, so this standalone site uses <code>api/data.json</code> as a backend data contract and localStorage for write-like saved state.</p></div>
-  <div class="api-card panel"><p class="eyebrow">API preview</p><pre data-api-preview>{}</pre></div>
-</section></main><footer><img src="assets/logo.svg" alt="" aria-hidden="true" /><p><strong>ReturnReady</strong><br/>A Quantum Cupcake Creation (Simoné Govender) Standalone GitHub Pages product site with front-end UI, JSON data layer, and local persistence.</p></footer><script>window.SITE_CONFIG={"slug":"returnready","name":"ReturnReady","category":"Reverse Logistics Portal","audience":"ecommerce support and warehouse teams","tone":"retail confidence","brand":"#b45309","accent":"#0f766e","second":"#be123c","soft":"#fff7ed","dark":"#261710","symbol":"package","tagline":"Returns that keep customers and warehouses aligned.","summary":"ReturnReady guides shoppers through eligibility, resolution choice, evidence upload, and warehouse intake without support ping-pong.","features":["Eligibility clarity","Exchange-first UX","Photo evidence","Intake labels"],"pages":["Returns portal","Warehouse view","Resolution flow","Status tracker"],"demo":{"label":"Return Router","fields":["Item condition","Resolution fit","Evidence quality"],"result":"Return path","outcomes":["Support","Review","Exchange"]},"records":["Exchange recommended","Photo evidence missing","Warehouse label ready"],"caseStudy":["Lower avoidable refunds","Give customers clear next steps","Prepare warehouse teams before parcels arrive"]};</script><script src="assets/app.js"></script></body></html>
+</head>
+<body data-page="lab">
+  <header class="site-header">
+    <a class="brand" href="index.html"><img src="assets/logo.svg" alt="" /><span><strong>ReturnReady</strong><small>Returns Control Tower</small></span></a>
+    <nav aria-label="ReturnReady navigation"><a href="index.html">Control Tower</a><a href="product.html">Shopper Portal</a><a href="workspace.html">Warehouse</a><a href="demo.html">Resolution Lab</a><a href="database.html">Database</a><a href="case-study.html">Case Study</a></nav>
+    <div class="header-actions"><span data-session-pill>Guest</span><a class="nav-button" href="login.html">Login</a><button class="nav-button" type="button" data-theme-toggle>Dark</button></div>
+  </header>
+
+  <main>
+    <section class="page-hero compact">
+      <p class="eyebrow">Interactive resolution lab</p>
+      <h1>Tune condition, evidence, and exchange fit to route the return.</h1>
+      <p>Save a demo run to browser storage, then inspect it in the database console.</p>
+    </section>
+
+    <section class="section lab-grid">
+      <form class="lab-controls" data-resolution-form>
+        <p class="eyebrow">Return router</p>
+        <h2>Resolution engine</h2>
+        <label>Item condition<input type="range" min="0" max="100" value="76" data-demo-input /></label>
+        <label>Exchange inventory fit<input type="range" min="0" max="100" value="88" data-demo-input /></label>
+        <label>Evidence quality<input type="range" min="0" max="100" value="61" data-demo-input /></label>
+        <button class="button primary" type="submit">Save resolution run</button>
+        <p data-form-status></p>
+      </form>
+      <article class="route-score">
+        <span>Return path</span>
+        <strong data-demo-result>0%</strong>
+        <p data-outcome>Exchange</p>
+      </article>
+      <article class="saved-runs">
+        <p class="eyebrow">Saved browser records</p>
+        <div data-saved-records></div>
+      </article>
+    </section>
+
+    <section class="section analytics-wall">
+      <article class="wide">
+        <p class="eyebrow">Resolution confidence</p>
+        <div data-chart></div>
+      </article>
+      <article>
+        <p class="eyebrow">API preview</p>
+        <pre data-api-preview>{}</pre>
+      </article>
+    </section>
+  </main>
+
+  <footer><img src="assets/logo.svg" alt="" /><p><strong>ReturnReady</strong><br />A Quantum Cupcake Creation (Simoné Govender)</p></footer>
+  <script src="assets/app.js"></script>
+</body>
+</html>

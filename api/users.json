@@ -1,0 +1,20 @@
+{
+  "product": "ReturnReady",
+  "mode": "Demo authentication for portfolio use only.",
+  "users": [
+    {
+      "id": "u-1",
+      "name": "Simone Govender",
+      "email": "simone@returnready.demo",
+      "password": "demo123",
+      "role": "Product designer"
+    },
+    {
+      "id": "u-2",
+      "name": "Warehouse Lead",
+      "email": "warehouse@returnready.demo",
+      "password": "returns123",
+      "role": "Reverse logistics lead"
+    }
+  ]
+}
